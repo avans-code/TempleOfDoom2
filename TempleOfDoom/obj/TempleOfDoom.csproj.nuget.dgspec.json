@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luisv\\source\\repos\\TempleOfDoom\\TempleOfDoom.csproj": {}
+    "C:\\Users\\luisv\\Source\\Repos\\demo\\TempleOfDoom\\TempleOfDoom.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luisv\\source\\repos\\TempleOfDoom\\TempleOfDoom.csproj": {
+    "C:\\Users\\luisv\\Source\\Repos\\demo\\TempleOfDoom\\TempleOfDoom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisv\\source\\repos\\TempleOfDoom\\TempleOfDoom.csproj",
+        "projectUniqueName": "C:\\Users\\luisv\\Source\\Repos\\demo\\TempleOfDoom\\TempleOfDoom.csproj",
         "projectName": "TempleOfDoom",
-        "projectPath": "C:\\Users\\luisv\\source\\repos\\TempleOfDoom\\TempleOfDoom.csproj",
+        "projectPath": "C:\\Users\\luisv\\Source\\Repos\\demo\\TempleOfDoom\\TempleOfDoom.csproj",
         "packagesPath": "C:\\Users\\luisv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisv\\source\\repos\\TempleOfDoom\\obj\\",
+        "outputPath": "C:\\Users\\luisv\\Source\\Repos\\demo\\TempleOfDoom\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
