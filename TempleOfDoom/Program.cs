@@ -1,11 +1,20 @@
-﻿namespace TempleOfDoom
+﻿using System.Collections.Generic;
+using System.Text.Json;
+using TempleOfDoom.DAL;
+
+namespace TempleOfDoom
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("kut github");
+            // Pad naar het JSON-bestand
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DAL", "TempleOfDoom.json");
+            // JSON-bestand inlezen
+            string jsonString = File.ReadAllText(filePath);
+
+            // Deserialiseren naar Rootobject
+            JsonData.Rootobject data = JsonSerializer.Deserialize<JsonData.Rootobject>(jsonString);
         }
     }
 }
