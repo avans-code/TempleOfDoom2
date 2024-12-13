@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oe3bg1fHOIE=",
+  "dgSpecHash": "vME3FPaGJk4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\luisv\\Source\\Repos\\demo\\TempleOfDoom\\TempleOfDoom.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\luisv\\.nuget\\packages\\system.io.pipelines\\9.0.0\\system.io.pipelines.9.0.0.nupkg.sha512",
-    "C:\\Users\\luisv\\.nuget\\packages\\system.text.encodings.web\\9.0.0\\system.text.encodings.web.9.0.0.nupkg.sha512",
-    "C:\\Users\\luisv\\.nuget\\packages\\system.text.json\\9.0.0\\system.text.json.9.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\ferna\\source\\repos\\TempleOfDoom2\\TempleOfDoom\\TempleOfDoom.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
