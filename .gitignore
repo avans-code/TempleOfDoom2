@@ -224,3 +224,8 @@ AppPackages/
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
+TempleOfDoom/obj/Debug/net8.0/TempleOfDoom.AssemblyInfo.cs
+TempleOfDoom/obj/Debug/net8.0/TempleOfDoom.AssemblyInfoInputs.cache
+TempleOfDoom/obj/Debug/net8.0/TempleOfDoom.AssemblyInfo.cs
+TempleOfDoom/obj/Debug/net8.0/TempleOfDoom.AssemblyInfoInputs.cache
+TempleOfDoom/obj/Debug/net8.0/TempleOfDoom.AssemblyInfoInputs.cache
