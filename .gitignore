@@ -49,6 +49,10 @@ build/
 *.idb
 *.tlog
 
+*/obj/
+*.AssemblyInfo.cs
+# In .gitignore
+AssemblyInfo.cs
 # Mono auto generated files
 mono_crash.*
 
