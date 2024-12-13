@@ -15,6 +15,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+/Debug/net8.0/
 
 # Ignore the obj folder, including all generated files (like AssemblyInfo.cs)
 **/obj/
