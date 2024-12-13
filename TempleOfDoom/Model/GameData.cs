@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace TempleOfDoom.Model
 {
-    internal class Class1
+    public class GameData
     {
+        public Room[] rooms { get; set; }
+        public Connection[] connections { get; set; }
+        public Player player { get; set; }
     }
 }

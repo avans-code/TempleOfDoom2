@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
-using System.Text.Json;
-using TempleOfDoom.DAL;
+﻿using System.Text.Json;
+using System.Xml.Linq;
+using TempleOfDoom.Model;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TempleOfDoom
 {
@@ -8,13 +9,17 @@ namespace TempleOfDoom
     {
         static void Main(string[] args)
         {
-            // Pad naar het JSON-bestand
+            // Path naar je JSON-bestand
             string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DAL", "TempleOfDoom.json");
-            // JSON-bestand inlezen
+
+            // Lees de inhoud van het JSON-bestand
             string jsonString = File.ReadAllText(filePath);
 
-            // Deserialiseren naar Rootobject
-            JsonData.Rootobject data = JsonSerializer.Deserialize<JsonData.Rootobject>(jsonString);
+            // Deserialize JSON naar een object
+            JsonDataObjects.GameData myData = JsonSerializer.Deserialize<JsonDataObjects.GameData>(jsonString);
+            Console.WriteLine(myData.player.startRoomId);
+
+
         }
     }
 }
