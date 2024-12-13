@@ -11,5 +11,17 @@ namespace TempleOfDoom.Model
         public string type { get; set; }
         public string color { get; set; }
         public int no_of_stones { get; set; }
+        public Boolean closed {  get; set; }
+
+
+        public void setClosed(Boolean closed)
+        {
+            this.closed = closed;
+        }
+        public Boolean GetClosed()
+        {
+            return this.closed;
+        }
+
     }
 }

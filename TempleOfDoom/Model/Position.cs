@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace TempleOfDoom.Model
 {
-    public enum Connection
+    public class Position
     {
-        North,
-        East,
-        South,
-        West
+        public int XPos { get; set; }
+        public int YPos { get; set; }
     }
 }
