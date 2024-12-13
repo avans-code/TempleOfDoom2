@@ -7,6 +7,76 @@
 # or wget:
 # wget --no-check-certificate http://gist.githubusercontent.com/kmorcinek/2710267/raw/.gitignore
 
+
+# Visual Studio
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ppPackages/
+[Aa]rtifacts/
+
+# Don't ignore NuGet packages folder in case of .nupkg files
+!packages/*.nupkg
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+
+# Enable "build/" folder
+!build/
+build/
+
+# User-specific files
+*.rsuser
+*.pdb
+*.cache
+*.log
+*.vscode
+*.ide.vscode
+*.ilk
+*.idb
+*.tlog
+
+# Mono auto generated files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config
+[Aa]pplication [Dd]ata/
+[Aa]pplication [Rr]esources/
+[Aa]pp [Dd]ata/
+
+# Crash dumps
+*.mdmp
+*.dmp
+
+# Resharper
+_ReSharper*
+*.DotSettings.user
+*.DotSettings
+
+# Rider
+.idea/
+
+# Project-specific
+*.csproj.user
+*.sln.cache
+
+# Mac-specific files
+.DS_Store
+*.swp
 # User-specific files
 *.suo
 *.user
