@@ -16,6 +16,9 @@
 *.userosscache
 *.sln.docstates
 
+# Ignore the obj folder, including all generated files (like AssemblyInfo.cs)
+**/obj/
+
 # Build results
 [Dd]ebug/
 [Rr]elease/
