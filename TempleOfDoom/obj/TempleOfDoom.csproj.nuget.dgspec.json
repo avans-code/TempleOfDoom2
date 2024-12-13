@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luisv\\Source\\Repos\\demo\\TempleOfDoom\\TempleOfDoom.csproj": {}
+    "C:\\Users\\ferna\\source\\repos\\TempleOfDoom2\\TempleOfDoom\\TempleOfDoom.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luisv\\Source\\Repos\\demo\\TempleOfDoom\\TempleOfDoom.csproj": {
+    "C:\\Users\\ferna\\source\\repos\\TempleOfDoom2\\TempleOfDoom\\TempleOfDoom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisv\\Source\\Repos\\demo\\TempleOfDoom\\TempleOfDoom.csproj",
+        "projectUniqueName": "C:\\Users\\ferna\\source\\repos\\TempleOfDoom2\\TempleOfDoom\\TempleOfDoom.csproj",
         "projectName": "TempleOfDoom",
-        "projectPath": "C:\\Users\\luisv\\Source\\Repos\\demo\\TempleOfDoom\\TempleOfDoom.csproj",
-        "packagesPath": "C:\\Users\\luisv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisv\\Source\\Repos\\demo\\TempleOfDoom\\obj\\",
+        "projectPath": "C:\\Users\\ferna\\source\\repos\\TempleOfDoom2\\TempleOfDoom\\TempleOfDoom.csproj",
+        "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ferna\\source\\repos\\TempleOfDoom2\\TempleOfDoom\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\luisv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
